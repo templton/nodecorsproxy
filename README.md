@@ -12,3 +12,11 @@
 Обращаться к серверу так:
 
 http://localhost:9001/http://site.ru?query=go
+
+## Ошибки
+
+Если проблемы с подключением к registry, то использовать зеркало
+
+`npm i --registry=https://registry.npmmirror.com`
+
+Если при установке появляется ошибка, что не может удалить README.md, то удалить package-lock.json
